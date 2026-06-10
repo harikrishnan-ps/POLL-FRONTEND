@@ -10,7 +10,7 @@ import { AuthService } from '../../core/services/auth.service';
   template: `
     <nav class="navbar">
       <div class="container navbar-container">
-        <a routerLink="/" class="brand">⚽ Football Polls</a>
+        <a routerLink="/" class="brand">POLL APP</a>
         
         <div class="nav-links">
           <ng-container *ngIf="!authService.currentUser().isAuthenticated">
